@@ -2,6 +2,11 @@ html {
     font-size: 1.125em;
 }
 
+#negrita {
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
 #background {
     background-color: rgb(50,50,50);
     background-image: url(img/ba1.jpg);
@@ -19,20 +24,12 @@ html {
   top: 40%;
   right: 5%;
   width: 40%;
-  justify-content: left;
+  text-align:left;
 }
 
 #verde {
     color: darkgreen;
 }
-
-/*       <main id="background" class="container-fluid">
-        <div class="p-4 p-md-5 mb-4 text-white">
-          <div class="col-md-5 px-0">
-            <h1 class="display-4">Title of a longer featured blog post</h1>
-            <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-          </div>
-        </div> */
 
         #borde1 {
             border-style: solid;
@@ -46,4 +43,47 @@ html {
             background-color: rgb(70, 200, 70);
             border-radius: 5px;
             padding: 5px;
+        }
+
+        #a {
+          text-align: center;
+        }
+
+        #javascript {
+          background-color:gold;
+          padding: 5px;
+          border-radius:5px;
+          font-weight: bold;
+          font-size: 0.75em;
+        }
+
+        #react {
+          background-color:dodgerblue;
+          padding: 5px;
+          color:white;
+          border-radius:5px;
+          font-weight: bold;
+          font-size: 0.75em;
+        }
+
+        #negocios {
+          background-color:darkgrey;
+          padding: 5px;
+          color:white;
+          border-radius:5px;
+          font-weight: bold;
+          font-size: 0.75em;
+        }
+
+        #startups {
+          background-color:red;
+          padding: 5px;
+          color:white;
+          border-radius:5px;
+          font-weight: bold;
+          font-size: 0.75em;
+        }
+
+        .card-text {
+          font-size: 0.75em;
         }
