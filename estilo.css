@@ -87,3 +87,17 @@ html {
         .card-text {
           font-size: 0.75em;
         }
+
+        #white {
+          color:white;
+        }
+
+        .centrado {
+          margin:auto;
+          width: 50%;
+          text-align:center;
+        }
+
+        #fondoazul {
+          background-color: darkblue;
+        }
